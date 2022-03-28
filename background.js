@@ -1,6 +1,5 @@
 
 chrome.runtime.onInstalled.addListener(function () {
-    console.log('hello');
     chrome.tabs.query(
         {currentWindow: true, active : true},
         function([tab]) {
@@ -13,7 +12,6 @@ chrome.runtime.onInstalled.addListener(function () {
 });
 
 chrome.tabs.onUpdated.addListener(function () {
-    console.log('hello');
     chrome.tabs.query(
         {currentWindow: true, active : true},
         function([tab]) {
