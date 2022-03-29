@@ -27,12 +27,14 @@ function displayBanner() {
     banner.setAttribute("id", "beacon_banner");
     banner.style.top = "0px";
     banner.style.width = "100%";
-    banner.style.height = "34px";
-    banner.style.padding = "10px";
+    // banner.style.height = "34px";
+    banner.style.padding = "14px";
     banner.style.fontSize = "14px";
     banner.style.fontStyle = "normal";
     banner.style.fontWeight = "400";
-    banner.style.textAlign = "center";
+    banner.style.display = "flex";
+    banner.style.alignText = "center";
+    banner.style.justifyContent = "center";
     banner.style.backgroundColor = "#1e1e1e";
     banner.style.color = "#b4b4b4";
     banner.style.fontFamily = "adobe-clean-ux,adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif";    
