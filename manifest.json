@@ -8,6 +8,18 @@
   },
   "permissions": ["storage", "activeTab", "scripting"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/beacon.png",
+      "32": "images/beacon.png",
+      "48": "images/beacon.png",
+      "128": "images/beacon.png"
+    }
+  },
+  "icons": {
+    "16": "images/beacon.png",
+    "32": "images/beacon.png",
+    "48": "images/beacon.png",
+    "128": "images/beacon.png"
   }
 }
