@@ -27,7 +27,6 @@ function displayBanner() {
     banner.setAttribute("id", "beacon_banner");
     banner.style.top = "0px";
     banner.style.width = "100%";
-    // banner.style.height = "34px";
     banner.style.padding = "14px";
     banner.style.fontSize = "14px";
     banner.style.fontStyle = "normal";
